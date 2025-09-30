@@ -1,4 +1,4 @@
-setwd("D:/project/bone_cancer")
+#setwd("folder_name")
 
 library(DESeq2)
 
@@ -46,3 +46,4 @@ pca_plot <- ggplot(pca_data, aes(x = PC1, y = PC2, color = treatment)) +
   theme_minimal() 
 
 print(pca_plot)
+
